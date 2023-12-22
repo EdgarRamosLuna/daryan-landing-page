@@ -116,8 +116,8 @@ export default function HomeComponent() {
               <Card>
                 <CardContent className="p-4">
                   <p className="text-gray-500 mt-2">
-                    "Quality Inspection Inc has helped us improve our product quality significantly. Their team is
-                    professional and thorough."
+                   {` "Quality Inspection Inc has helped us improve our product quality significantly. Their team is
+                    professional and thorough."`}
                   </p>
                   <div className="flex items-center mt-4">
                     <Avatar alt="Client Avatar" src="/placeholder.svg?height=32&width=32" />
@@ -131,8 +131,8 @@ export default function HomeComponent() {
               <Card>
                 <CardContent className="p-4">
                   <p className="text-gray-500 mt-2">
-                    "Their inspection services are excellent. They have helped us identify and rectify quality issues
-                    early."
+                   {` "Their inspection services are excellent. They have helped us identify and rectify quality issues
+                    early."`}
                   </p>
                   <div className="flex items-center mt-4">
                     <Avatar alt="Client Avatar" src="/placeholder.svg?height=32&width=32" />
@@ -146,8 +146,8 @@ export default function HomeComponent() {
               <Card>
                 <CardContent className="p-4">
                   <p className="text-gray-500 mt-2">
-                    "I highly recommend Quality Inspection Inc. They have significantly improved our product outcomes
-                    and customer satisfaction."
+                    {`"I highly recommend Quality Inspection Inc. They have significantly improved our product outcomes
+                    and customer satisfaction."`}
                   </p>
                   <div className="flex items-center mt-4">
                     <Avatar alt="Client Avatar" src="/placeholder.svg?height=32&width=32" />
@@ -195,21 +195,3 @@ export default function HomeComponent() {
   );
 }
 
-
-function CheckIcon(props) {
-  return (
-    (<svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round">
-      <polyline points="20 6 9 17 4 12" />
-    </svg>)
-  );
-}
